@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Projet site e-commerce B3EC</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../../static/css/product.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" />
+  </head>
+  <body>
+    <!-- Barre de navigation -->
+    <nav>
+      <div class="nav-item" id ="ontop">
+          <img src="../../static/img/Icons/logo.png" alt="Image 1" width="100" height="100">
+          <div class="right1">
+              <form>
+                  <input type="search" placeholder="Rechercher" >
+              </form>
+              
+              <p><i class="far fa-heart"></i></p>
+              <p><i class="fas fa-shopping-cart"></i></p>
+          </div>
+      </div>
+      
+      <div class="nav-item" id="onglets">
+        <p class="link"><a href="/">Accueil</a></p>
+            
+        <p class="link"><a href="../Other_Prodcuts/cadeaux_personalisés.html">Cadeaux_personalisés</a></p>
+       
+        <p class="link"><a href="../Other_Prodcuts/Mode-acce.html">Mode et accessoires</a></p>
+        
+        <p class="link"><a href="../Other_Prodcuts/chocolatetgourmandises.html">Chocolat et gourmandises</a></p>
+        <p class="link"><a href='Recommendation_system'>Recommendation_system</a></p>
+      </div>
+      
+    </nav>
+   
+      <!-- Fin de la barre de navigation -->
+      
+    <body>
+        <div class="product-container">
+            <div class="product-image">
+                <img src="../../static/img/mode-accesoirIMG/4.jpg" alt="Product Name">
+            </div>
+            <div class="product-details">
+                <h1>t-Shirt</h1><hr>
+                <strong>$23 </strong>
+                <hr><hr><hr>
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" min="1" value="1">
+                <button onclick="add()" class="add-to-cart-button">Add to Cart</button>
+                <hr>
+                <h3> Description:</h3>
+                <p>Description of the product goes here. Add detailed information about the product and its features.</p>
+            </div>
+        </div>
+    <script src="../../static/js/Sproduct.js"></script>
+
+    </body>
+    <footer>
+      <section class="footer">
+        <div class="footer-row">
+          <div class="footer-col">
+            <h4>Info</h4>
+            <ul class="links">
+              <li><a href="#">À propos de nous</a></li>
+              <li><a href="#">Compressions</a></li>
+              <li><a href="#">Clients</a></li>
+              <li><a href="#">Service</a></li>
+              <li><a href="#">Collection</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Explorer</h4>
+            <ul class="links">
+              <li><a href="#">Nos tendances</a></li>
+              <li><a href="#">Offrez un cadeau groupé</a></li>
+              <li><a href="#">Themes</a></li>
+              <li><a href="#">Nouveaux produits</a></li>
+              <li><a href="#">De vrais conseils pour bien choisir</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Legal</h4>
+            <ul class="links">
+              <li><a href="#">Accord client</a></li>
+              <li><a href="#">Politique de confidentialité</a></li>
+              <li><a href="#">RGPD</a></li>
+              <li><a href="#">Sécurité</a></li>
+              <li><a href="#">Témoignages</a></li>
+              <li><a href="#">Kit média</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Bulletin d'information</h4>
+            <p>
+              Abonnez-vous à notre newsletter pour une dose hebdomadaire de nouvelles, de mises à jour, de conseils utiles et d'offres exclusives
+            </p>
+            <form action="#">
+              <input type="text" placeholder="Your email" required>
+              <button type="submit">SUBSCRIBE</button>
+            </form>
+            
+    
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-snapchat"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+          </div>
+        </div>
+      </section>>
+    </footer>
+    <!-- Fin du pied de page -->
+
+</html>
+
+

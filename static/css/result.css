@@ -1,0 +1,22 @@
+
+body {
+  background-color: rgb(241, 241, 241);
+  
+}
+.container{
+  display: flex;
+
+}
+
+
+
+/*image result of prediction*/
+
+.image_Result {
+  text-align: center;
+}
+
+#result {
+  width:  600px;
+  height: 600px;
+}

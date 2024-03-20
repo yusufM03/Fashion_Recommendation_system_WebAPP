@@ -1,0 +1,4 @@
+Python 3.9.18
+Flask  2.2.5
+Werkzeug 3.0.1
+numpy  1.26.3
