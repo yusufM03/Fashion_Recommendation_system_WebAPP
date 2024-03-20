@@ -3,9 +3,10 @@
 A web-based e-commerce application built with Flask, featuring a recommendation system for fashion products.
 
 ## Demo
-[![Video](https://youtu.be/RX8n1z0c74I?si=K5CCQENQlpGMdCXi)](https://youtu.be/RX8n1z0c74I?si=K5CCQENQlpGMdCXi)
+[![Video](https://img.youtube.com/vi/RX8n1z0c74I/0.jpg)](https://youtu.be/RX8n1z0c74I?si=K5CCQENQlpGMdCXi)
 
 ## Overview
+
 
 This Flask-based web application provides users with a platform to browse and purchase fashion products online. The application incorporates a recommendation system that suggests fashion items based on user preferences .
 
